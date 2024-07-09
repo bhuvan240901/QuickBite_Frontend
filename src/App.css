@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20);
+    position: fixed;
+    width: 90%;
+    min-width: 80%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+
+}
+
+.itemSection{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
+.gallery{
+    width: 200px;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.userAuth{
+    cursor: pointer;
+}
+
+.landingSection{
+    padding: 0 170px;
+}
+.chainSection{
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+    height: auto;
+}
+.vendorBox{
+    border-radius: 10px;
+    
+}
+
+.firmImage img{
+    object-fit: cover;
+    height: 220px;
+    width: 370px;
+    flex: 0 0 auto;
+    margin-right:30px ;
+    border-radius: 10px;
+
+}
+.firmSection{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.firmGroup img{
+    object-fit: cover;
+    height: 180px;
+    width: 250px;
+    flex: 0 0 auto;
+    margin-right:30px ;
+    border-radius: 10px;
+
+}
+
+.firmDetails{
+padding-left: 10px;
+}
+
+.firmGroup {
+    position: relative;
+}
+
+.firmOffer{
+    width: 100%;
+    max-width: 85%;
+    position: absolute;
+    bottom: 4px;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: transparent;
+    background: linear-gradient(to bottom,rgba(50,0,0,0.08),black);
+    border-radius: 5px 5px;
+}
+
+.firmArea{
+    color: gray;
+    font-size: small;
+}
+
+
+.productSection{
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+    margin-top: 70px;
+    
+}
+
+.productBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-top: 2px solid lightgray;
+    position: relative;
+}
+
+.productGroup img{
+width: 100px;
+border-radius: 5px;
+}
+
+.addButton{
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+    color: green;
+    border: 1px solid lightgray;
+    width: 100%;
+    max-width: 80px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+.prodDetails{
+    color: rgb(65, 61, 61);
+    font-size: 0.9rem;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
+.companyTitle h2{
+color: orangered;
+}
+
+.buttonSection{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
+
+.buttonSection button{
+    border: none;
+    background: none;
+}
+
+.btnIcons{
+    font-size: x-large;
+}
+
+.loadingSpinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productSection h3{
+    text-align: center;
+    background-color: orange;
+}
+
+.filterButtons{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filterButtons button{
+    width: 10rem;
+    padding: 5px 0;
+}
+
+.btnActive{
+    background-color: orange;
+    color: white;
+    border: none;
+}
